@@ -1,5 +1,7 @@
 #  Real-Time 2D Fluid Simulation (SPH)
 
+![fluidgif](./gifs/fluid.gif)
+
 A real-time, interactive **2D fluid simulator** written in modern **C++17** and **OpenGL**, based on **Smoothed Particle Hydrodynamics (SPH)**. Thousands of particles are simulated on the CPU and rendered on the GPU using **instanced rendering**, with a live control panel for tuning every physical parameter on the fly.
 
 The simulation reproduces realistic fluid behavior — pressure, incompressibility, viscosity, gravity and wall collisions — and lets you push, pull and stir the liquid directly with the mouse.
@@ -9,8 +11,6 @@ The simulation reproduces realistic fluid behavior — pressure, incompressibili
 ##  Overview
 
 Each particle is a small circle colored by its speed (a blue → cyan → green → yellow → red heat map). As the fluid flows, splashes and settles, the color field makes the velocity distribution of the flow immediately readable.
-
-> _Tip: add a GIF or screenshot here to showcase the simulation, e.g._ `![demo](docs/demo.gif)`
 
 ---
 
